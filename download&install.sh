@@ -42,3 +42,29 @@ fi
 
 
 shopt -u nocasematch
+
+
+
+
+
+
+
+
+if cat /etc/*-release | grep -ie "centos" | wc -l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
