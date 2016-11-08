@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-set +x 
+set -x 
 #Greps the host OS name
 cat /etc/*-release | grep -ie "centos" -ie "ubuntu" -ie "fedora" | awk '{print $1}'
 
